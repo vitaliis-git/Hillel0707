@@ -9,6 +9,6 @@ public class Cat extends Animal {
     }
     @Override
     public void sound() {
-        System.out.println("I am a Cat. My name is Vasya. Meow");
+        System.out.println("I am a Cat. My name is " + name + ". Meow");
     }
 }
