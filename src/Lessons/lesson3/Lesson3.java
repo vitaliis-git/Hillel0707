@@ -59,8 +59,19 @@ public class Lesson3 {
 //        System.out.println(name + " " + result);
 
 
+//        byte a = 15;
+//        int b = a;
+//        System.out.println(b);
+//
+//
+//        int y = 128;
+//        byte k = (byte) y;
+//        System.out.println(k);
 
 
+//        double a = 11.855;
+//        int b = (int) a;
+//        System.out.println(b);
 
 
 

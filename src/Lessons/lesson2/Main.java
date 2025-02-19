@@ -17,11 +17,11 @@ public class Main {
         System.out.println(l);
 
         int n = 2;
-        n ++;
+        n++;
         System.out.println(n);
 
         int g = 2;
-        g --;
+        g--;
         System.out.println(g);
 
         System.out.println("-------");
