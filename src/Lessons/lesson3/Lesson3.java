@@ -60,19 +60,18 @@ public class Lesson3 {
 
 
 //        byte a = 15;
-//        int b = a;
+//        int b = a; //неявное приведение типов
 //        System.out.println(b);
 //
 //
 //        int y = 128;
-//        byte k = (byte) y;
+//        byte k = (byte) y; //явное приведение типов
 //        System.out.println(k);
 
 
 //        double a = 11.855;
 //        int b = (int) a;
 //        System.out.println(b);
-
 
 
     }

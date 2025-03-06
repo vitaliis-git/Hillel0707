@@ -53,6 +53,17 @@ public class Lesson5 {
         System.out.println(text3);
         System.out.println(text4.trim());
 
+        String text5 = "Hello studenTs";
+        System.out.println(text5.toUpperCase());
+        System.out.println(text5.toLowerCase());
+
+
+        String name2 = "Hello, I am Alex";
+        System.out.println(name2.charAt(4));
+        System.out.println(name2.indexOf("l"));
+        System.out.println(name2.lastIndexOf("l"));
+
+        System.out.println(name2.replace("Alex", "Vitalii"));
 
 
 

@@ -6,6 +6,7 @@ public class Main {
 
         Cat cat = new Cat(); // создание обьекта Cat или создание экземпляра класса;
         cat.sayHello();
+
         catActions();
     }
 

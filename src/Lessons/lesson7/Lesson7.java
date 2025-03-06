@@ -34,13 +34,13 @@ public class Lesson7 {
         System.out.println(b);
 
 
-        // [2,3)
+        // [2,3) - від 2 включно до 3 виключно
         // (Math.random() * (3 - 2)) + 2 = (Math.random()) + 2
         double c = Math.random() + 2;
         System.out.println(c);
 
 
-        // [0,2]
+        // [0,2] - від 0 включно до 2 включно
         int m = (int) (Math.random() * 3);
         System.out.println(m);
 
