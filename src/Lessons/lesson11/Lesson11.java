@@ -23,9 +23,16 @@ public class Lesson11 {
 
 
         int a = 10;
-        if (++a == 10 & ++a == 12) {
+        if (++a == 10 && ++a == 12) {
             ++a;
         }
         System.out.println(a);
+
+        int b = 10;
+
+        if (++b == 10 & ++b == 12) {
+            ++b;
+        }
+        System.out.println(b);
     }
 }

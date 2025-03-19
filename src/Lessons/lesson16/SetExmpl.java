@@ -9,6 +9,8 @@ public class SetExmpl {
         myHash.add(2);
         myHash.add(3);
 
+        myHash.add(1);
+
         System.out.println(myHash.size());
         System.out.println(myHash.contains(1));
         System.out.println("Hashset is empty? " + myHash.isEmpty());
@@ -18,7 +20,7 @@ public class SetExmpl {
             System.out.print(i + " ");
         }
 
-        myHash.remove(1);
+        myHash.remove(1); //видалення об'єкту 1, а не індексу 1
         System.out.println();
         System.out.println("After remove:");
         for (Integer i : myHash){

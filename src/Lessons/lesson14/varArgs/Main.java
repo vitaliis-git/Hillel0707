@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int count = addAll(1, 1, 1);
         System.out.println(count);
-        int count2 = addAll(2,2,2,2,2,2,2);
+        int count2 = addAll(2,2,2,2,2,2,2,2,2,2);
         System.out.println(count2);
     }
 

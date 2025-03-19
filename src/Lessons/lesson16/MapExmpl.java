@@ -6,7 +6,7 @@ import java.util.Map;
 public class MapExmpl {
     public static void main(String[] args) {
         HashMap<String, String> myHashMap = new HashMap<>();
-        myHashMap.put("Vitalii", "30.10.1986");
+        myHashMap.put("Vitalii", "30.10.1986"); // Vitalii - ключ, ДР - значення
         myHashMap.put("Alex", "24.07.1989");
         myHashMap.put("Vika", "03.01.1990");
 
@@ -19,19 +19,19 @@ public class MapExmpl {
         System.out.println(myHashMap.size());
 
 
-//        System.out.println("Value for key Alex - " + myHashMap.get("Alex"));
-//
-//
-//        System.out.println("Map before deleting: ");
-//        for (Map.Entry<String, String> i : myHashMap.entrySet()){
-//            System.out.println(i.getKey() + " - " + i.getValue());
-//        }
-//
-//        myHashMap.remove("Alex");
-//
-//        System.out.println("Map after deleting: ");
-//        for (Map.Entry<String, String> i : myHashMap.entrySet()){
-//            System.out.println(i.getKey() + " - " + i.getValue());
-//        }
+        System.out.println("Value for key Alex - " + myHashMap.get("Alex"));
+
+
+        System.out.println("Map before deleting: ");
+        for (Map.Entry<String, String> i : myHashMap.entrySet()){
+            System.out.println(i.getKey() + " - " + i.getValue());
+        }
+
+        myHashMap.remove("Alex");
+
+        System.out.println("Map after deleting: ");
+        for (Map.Entry<String, String> i : myHashMap.entrySet()){
+            System.out.println(i.getKey() + " - " + i.getValue());
+        }
     }
 }

@@ -16,7 +16,7 @@ public class MyArrayList {
         System.out.println(name.get(1));
         name.set(1, "Ira");
 
-        System.out.println(name.indexOf("Sasha"));
+        System.out.println(name.indexOf("Sasha")); // якщо елемент не знайдено, то вертається -1
         System.out.println(name.indexOf("Ira"));
         System.out.println(name);
 

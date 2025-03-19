@@ -8,12 +8,10 @@ public enum Country {
 
     String currency;
 
-    Country(){
-
+    Country(){ // неявний конструктор для Zimbabve
     }
-
     Country(String currency){
         this.currency = currency;
-    }
+    } // явний конструктор для Canada, Poland, Germany
 
 }

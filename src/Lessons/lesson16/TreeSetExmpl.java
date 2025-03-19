@@ -15,6 +15,6 @@ public class TreeSetExmpl {
         myTreeSet.add("A");
         myTreeSet.add("L");
         myTreeSet.add("K");
-        System.out.println(myTreeSet);
+        System.out.println(myTreeSet); // всі елементи трісети зберігаються відсортованими по зростанню і без дублів
     }
 }

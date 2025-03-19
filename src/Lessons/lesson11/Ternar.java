@@ -6,10 +6,11 @@ public class Ternar {
         String str = "blablabla?";
         String str2 = "blablabla";
 
-
+        check(str);
+        checkWithTernar(str2);
     }
 
-    public void check(String str) {
+    public static void check(String str) {
         var lastChar  = str.charAt(str.length() - 1);
         if (lastChar == '?') {
             System.out.println("Question in the end");
